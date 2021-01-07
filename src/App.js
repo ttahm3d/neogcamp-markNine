@@ -22,7 +22,7 @@ const GamesDB = {
       rating: "4.8/5"
     },
     {
-      name: "Leagure of Legends",
+      name: "League of Legends",
       rating: "3.9/5"
     }
   ],
@@ -74,6 +74,12 @@ export default function App() {
           ))}
         </ul>
       </section>
+      <footer>
+        Created by{" "}
+        <a rel="noreferrer" target="_blank" href="https://github.com/ttahm3d">
+          Tahir Ahmed T
+        </a>
+      </footer>
     </div>
   );
 }

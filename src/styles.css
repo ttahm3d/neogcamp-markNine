@@ -42,6 +42,7 @@ h1 {
 
 button {
   background-color: #f2f2f2;
+  cursor: pointer;
   margin: 5px 10px;
   padding: 5px 10px;
   font-size: 16px;
@@ -50,4 +51,27 @@ button {
 
 button:hover {
   background-color: #ccc9c9;
+}
+
+footer {
+  padding: 20px;
+  background-color: #26032b;
+  margin-top: auto;
+  color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #8e44ad;
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 800px) {
+  .gameslist-item {
+    width: 40vw;
+  }
 }
